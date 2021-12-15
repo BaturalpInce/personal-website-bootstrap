@@ -1,0 +1,53 @@
+* {
+    box-sizing: border-box;
+}
+.navbar .navbar-brand{
+    margin-left:10% !important;
+    }
+
+
+main#content-1{
+    padding-top: 5%;
+    margin: auto !important;
+}
+
+h1.display-1{
+    text-align: center;
+    padding-top: 1%;
+}
+
+main#content-2{
+    padding-top: 1%;
+    margin: auto !important;
+}
+
+.card-body{
+    text-align: center;
+}
+
+.colorforbackground{
+	/*background: #d8dfe2;*/
+    background: #cdcdcd;; 
+ 
+}
+
+i{
+    margin-left: 1%;
+    font-size: 50px;
+}
+
+body{
+    background: linear-gradient(to top, #cfd9df 0%, #e2ebf0 100%);
+}
+
+footer{
+    margin-top: 5%;
+    color: white;
+    bottom: 0;
+}
+
+#blogtitle{
+    text-align: center;
+}
+
+
