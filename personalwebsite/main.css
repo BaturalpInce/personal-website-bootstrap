@@ -71,6 +71,12 @@ footer{
     position: relative;
     padding-bottom: 60%;
   }
+
+.hover-3{
+    overflow: hidden;
+    position: relative;
+    
+}
   
   .hover-overlay {
  
@@ -118,7 +124,6 @@ footer{
     z-index: 99;
     transition: all 0.3s;
   }
-  
   .hover-2:hover .hover-2-title {
     transform: translateY(-1.5rem);
   }
