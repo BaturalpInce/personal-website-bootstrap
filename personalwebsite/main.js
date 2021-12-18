@@ -52,6 +52,67 @@ myFunctions.clickedBlog4 = function(){
 }
 myFunctions.clickedBlog4();
 
+myFunctions.hoveredBlog1 = function(){
+    $(".blogno1").mouseover(function(){
+        $(this).removeClass("border-dark")
+        $(this).addClass("border-primary")
+        });
+    $(".blogno1").mouseout(function(){
+        $(this).removeClass("border-primary")
+        $(this).addClass("border-dark")
+        });
+}
+myFunctions.hoveredBlog1();
+
+myFunctions.hoveredBlog2 = function(){
+    $(".blogno2").mouseover(function(){
+        $(this).removeClass("border-dark")
+        $(this).addClass("border-primary")
+        });
+    $(".blogno2").mouseout(function(){
+        $(this).removeClass("border-primary")
+        $(this).addClass("border-dark")
+        });
+}
+myFunctions.hoveredBlog2();
+
+myFunctions.hoveredBlog3 = function(){
+    $(".blogno3").mouseover(function(){
+        $(this).removeClass("border-dark")
+        $(this).addClass("border-primary")
+        });
+    $(".blogno3").mouseout(function(){
+        $(this).removeClass("border-primary")
+        $(this).addClass("border-dark")
+        });
+}
+myFunctions.hoveredBlog3();
+
+myFunctions.hoveredBlog4 = function(){
+    $(".blogno4").mouseover(function(){
+        $(this).removeClass("border-dark")
+        $(this).addClass("border-primary")
+        });
+    $(".blogno4").mouseout(function(){
+        $(this).removeClass("border-primary")
+        $(this).addClass("border-dark")
+        });
+}
+myFunctions.hoveredBlog4();
+
+myFunctions.hoveredBlog5 = function(){
+    $("#blogpreview").mouseover(function(){
+        $(this).removeClass("border-dark")
+        $(this).addClass("border-primary")
+        });
+    $("#blogpreview").mouseout(function(){
+        $(this).removeClass("border-primary")
+        $(this).addClass("border-dark")
+        });
+}
+myFunctions.hoveredBlog5();
+
+
 
 
 
