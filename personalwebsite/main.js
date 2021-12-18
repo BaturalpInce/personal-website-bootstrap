@@ -7,8 +7,7 @@ myFunctions.clickedBlog1 = function(){
         $("#blogpreview").fadeOut("fast", function(){
             document.getElementById("blogpreview").innerHTML = " "; //clear old picture
             document.getElementById("blogpreview").style = "display:'block'" //clear old picture
-            document.getElementById("blogpreview").innerHTML = "<img src='https://picsum.photos/970/800' class='img-fluid' id='picture5'>"; //target photo
-
+            document.getElementById("blogpreview").innerHTML = "<div class='hover-3 hover-2 text-white'><img src='https://picsum.photos/1045/1000' class='img-fluid' id='picture5'><div class='hover-overlay'></div><div class='hover-2-content'><h3 class='hover-2-title text-uppercase font-weight-bold mb-0'> <span class='font-weight-light'>Image </span>Caption</h3><p class='hover-2-description text-uppercase' style='padding-bottom:20%; font-size:32px;'>Lorem ipsum dolor sit amet, consectetur <br>adipisicing elit.</p></div></div>";
         });
         //document.getElementById("blogpreview").innerHTML = " "; //clear old picture
         //document.getElementById("blogpreview").innerHTML = "<img src='https://picsum.photos/970/800' class='img-fluid' id='picture5'>"; //target photo
@@ -24,7 +23,7 @@ myFunctions.clickedBlog2 = function(){
         $("#blogpreview").fadeOut("fast", function(){
         document.getElementById("blogpreview").innerHTML = " "; //clear old picture
         document.getElementById("blogpreview").style = "display:'block'" //clear old picture
-        document.getElementById("blogpreview").innerHTML = "<img src='https://picsum.photos/950/800' class='img-fluid' id='picture5'>"; //target photo
+        document.getElementById("blogpreview").innerHTML = "<div class='hover-3 hover-2 text-white'><img src='https://picsum.photos/1045/1000' class='img-fluid' id='picture5'><div class='hover-overlay'></div><div class='hover-2-content'><h3 class='hover-2-title text-uppercase font-weight-bold mb-0'> <span class='font-weight-light'>Image </span>Caption</h3><p class='hover-2-description text-uppercase' style='padding-bottom:20%; font-size:32px;'>Lorem ipsum dolor sit amet, consectetur <br>adipisicing elit.</p></div></div>";
         });
     });
 }
@@ -35,7 +34,7 @@ myFunctions.clickedBlog3 = function(){
         $("#blogpreview").fadeOut("fast", function(){
         document.getElementById("blogpreview").innerHTML = " "; //clear old picture
         document.getElementById("blogpreview").style = "display:'block'" //clear old picture
-        document.getElementById("blogpreview").innerHTML = "<img src='https://picsum.photos/930/800' class='img-fluid' id='picture5'>"; //target photo
+        document.getElementById("blogpreview").innerHTML = "<div class='hover-3 hover-2 text-white'><img src='https://picsum.photos/1045/1000' class='img-fluid' id='picture5'><div class='hover-overlay'></div><div class='hover-2-content'><h3 class='hover-2-title text-uppercase font-weight-bold mb-0'> <span class='font-weight-light'>Image </span>Caption</h3><p class='hover-2-description text-uppercase' style='padding-bottom:20%; font-size:32px;'>Lorem ipsum dolor sit amet, consectetur <br>adipisicing elit.</p></div></div>";
         });
     });
 }
@@ -46,7 +45,7 @@ myFunctions.clickedBlog4 = function(){
         $("#blogpreview").fadeOut("fast", function(){
         document.getElementById("blogpreview").innerHTML = " "; //clear old picture
         document.getElementById("blogpreview").style = "display:'block'" //clear old picture
-        document.getElementById("blogpreview").innerHTML = "<img src='https://picsum.photos/910/800' class='img-fluid' id='picture5'>"; //target photo
+        document.getElementById("blogpreview").innerHTML = "<div class='hover-3 hover-2 text-white'><img src='https://picsum.photos/1045/1000' class='img-fluid' id='picture5'><div class='hover-overlay'></div><div class='hover-2-content'><h3 class='hover-2-title text-uppercase font-weight-bold mb-0'> <span class='font-weight-light'>Image </span>Caption</h3><p class='hover-2-description text-uppercase' style='padding-bottom:20%; font-size:32px;'>Lorem ipsum dolor sit amet, consectetur <br>adipisicing elit.</p></div></div>";
         });
     });
 }
