@@ -1,13 +1,93 @@
 * {
     box-sizing: border-box;
 }
+
 .navbar .navbar-brand{
     margin-left:10% !important;
     }
 
+.fa-phoenix-framework{
+      color: red;
+
+    }
+  
+/*for phones*/
+@media screen and (max-width: 450px) { 
+#logo-box{
+  padding-top:20%;
+}
+
+#logo-animation-1{
+  animation: move-1 5s linear 5s infinite;
+}
+
+#logo-animation-2{
+  animation: move-2 5s linear 5s infinite;
+}
+
+@keyframes move-1 {
+  from {transform: translateX(0px)}
+  to {transform: translateX(360px) scaleX(0.6) scaleY(0.3);}
+}
+
+@keyframes move-2 {
+  from {transform: translateX(0px);}
+  to {transform: translateX(360px) scaleX(0.6) scaleY(0.2);}
+}
+}
+
+/*for tablets*/
+@media screen and (min-width: 450px) and (max-width: 800px){
+#logo-box{
+  padding-top:10%;
+}
+  
+#logo-animation-1{
+  animation: move-1 5s linear 5s infinite;
+}
+  
+#logo-animation-2{
+  animation: move-2 5s linear 5s infinite;
+}
+  
+@keyframes move-1 {
+  from {transform: translateX(0px)}
+  to {transform: translateX(750px) scaleX(0.6) scaleY(0.3);}
+}
+  
+@keyframes move-2 {
+  from {transform: translateX(0px);}
+  to {transform: translateX(750px) scaleX(0.6) scaleY(0.2);}
+}
+}
+
+/*for pc*/
+@media screen and (min-width: 800px){
+#logo-box{
+  padding-top:5%;
+}
+    
+#logo-animation-1{
+  animation: move-1 5s linear 5s infinite;
+}
+    
+#logo-animation-2{
+  animation: move-2 5s linear 5s infinite;
+}
+    
+@keyframes move-1 {
+  from {transform: translateX(0px)}
+  to {transform: translateX(1920px) scaleX(0.6) scaleY(0.3);}
+}
+    
+@keyframes move-2 {
+  from {transform: translateX(0px);}
+  to {transform: translateX(1920px) scaleX(0.6) scaleY(0.2);}
+}
+}
 
 main#content-1{
-    padding-top: 5%;
+    padding-top: 1%;
     margin: auto !important;
 }
 
